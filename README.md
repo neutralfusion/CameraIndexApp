@@ -1,6 +1,10 @@
 <div id="header" align="center">
-  <img src="https://media0.giphy.com/media/UQJlZ2OcaCA2RLfGiZ/giphy.gif?cid=ecf05e47x9yio5u6tkgd66755aaiuha9apcrmso5zevescau&rid=giphy.gif&ct=s" width="100"/>
+  <img src="https://i.imgur.com/mIVOQH4.png"/>
 </div>
+
+<br>
+
+
 
 # 📸  CameraIndexApp 
 Android application based on Java which is indexing different cameras, lenses and accesories along with 
@@ -10,6 +14,10 @@ their specifications, guides, downloadable content, reviews, tips and tricks.
 
 The CameraIndex Android application came from the initial ideea of an application to be developed for the Android Course (IT-AND1X-S22) at VIA University College that was an online store where photographers could sell their pictures or stock images as prints. 
 Studying the problem more, the conclusion was that a camera hardware and accesories indexing app would be more useful for a photographer that needs a decision towards buying and using camera gear. This app is proposing to create a database where the client can easily find specifications, reviews, tips and tricks about gear and other hardware resources related to photography.
+
+<div id="header" align="center">
+  <img src="https://media0.giphy.com/media/UQJlZ2OcaCA2RLfGiZ/giphy.gif?cid=ecf05e47x9yio5u6tkgd66755aaiuha9apcrmso5zevescau&rid=giphy.gif&ct=s" width="100"/>
+</div>
 
 ## ✅  Requirements 
 
@@ -25,6 +33,8 @@ Studying the problem more, the conclusion was that a camera hardware and accesor
 
 
 ### Low: 
+6. As a user, I'm willing to be able to leave a rating for the preffered camera gear.
+7. As a user, I'm willing to be able to add a camera gear to a favourite list or category.
 
 ### Non-functional requirements:
  - The application can be translated in english, danish;
