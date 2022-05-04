@@ -14,14 +14,14 @@ Studying the problem more, the conclusion was that a camera hardware and accesor
 ## ✅  Requirements 
 
 ### Critical:
-As a user, I'm willing to be able to register a new account, such that I can log in with my new account.
-As a user, I'm willing to be able to register a new account using Google Authentication (Firebase Integration), so I can register a new account easier.
-As a user, I'm willing to be able to log in on an alreadu registered account, so I can start browsing through the camera database and be able to read about it.
+1. As a user, I'm willing to be able to register a new account, such that I can log in with my new account.
+2. As a user, I'm willing to be able to register a new account using Google Authentication (Firebase Integration), so I can register a new account easier.
+3. As a user, I'm willing to be able to log in on an alreadu registered account, so I can start browsing through the camera database and be able to read about it.
 
 
 ## High:
-As a user, I'm willing to be able to search through the database by a search bar, to find my preffered camera gear that I want to read about.
-As a user, I'm want to be able to see the location of the hotel, such that I know where is located.
+4. As a user, I'm willing to be able to search through the database by a search bar, to find my preffered camera gear that I want to read about.
+5. As an administrator, I'm willing to be able to modify the reviews and the data into the app.
 
 
 ### Low: 
@@ -38,3 +38,9 @@ As a user, I'm want to be able to see the location of the hotel, such that I kno
   <img src="https://github.com/devicons/devicon/blob/master/icons/git/git-original-wordmark.svg" title="Git" **alt="Git" width="40" height="40"/>
 <img src="https://github.com/devicons/devicon/blob/master/icons/figma/figma-original.svg" title="Figma" alt="Figma" width="40" height="40"/>&nbsp;
   </div>
+
+
+## 📱  Figma Mockups: 
+<div id="header" align="center">
+  <img src="https://i.imgur.com/KpF2OEr.png" height="280" />
+</div>
