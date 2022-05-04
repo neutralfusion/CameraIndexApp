@@ -27,7 +27,7 @@ Studying the problem more, the conclusion was that a camera hardware and accesor
 3. As a user, I'm willing to be able to log in on an alreadu registered account, so I can start browsing through the camera database and be able to read about it.
 
 
-## High:
+### High:
 4. As a user, I'm willing to be able to search through the database by a search bar, to find my preffered camera gear that I want to read about.
 5. As an administrator, I'm willing to be able to modify the reviews and the data into the app.
 
