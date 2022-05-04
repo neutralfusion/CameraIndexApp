@@ -52,5 +52,5 @@ Studying the problem more, the conclusion was that a camera hardware and accesor
 
 ## 📱  Figma Mockups: 
 <div id="header" align="center">
-  <img src="https://i.imgur.com/KpF2OEr.png" height="280" />
+  <img src="https://i.imgur.com/KpF2OEr.png"  />
 </div>
