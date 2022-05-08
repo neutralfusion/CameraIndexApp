@@ -30,11 +30,13 @@ Studying the problem more, the conclusion was that a camera hardware and accesor
 ### High:
 4. As a user, I'm willing to be able to search through the database by a search bar, to find my preffered camera gear that I want to read about.
 5. As an administrator, I'm willing to be able to modify the reviews and the data into the app.
+6. As a user, I'm willing to be able to see latest post on the main page, so that I will make the right decision when buying the gear according to the latest trends.
 
 
 ### Low: 
 6. As a user, I'm willing to be able to leave a rating for the preffered camera gear.
 7. As a user, I'm willing to be able to add a camera gear to a favourite list or category.
+8. As a user, I'm willing to be able to see some places where I can find the camera gear for buying.
 
 ### Non-functional requirements:
  - The application can be translated in english, danish;
