@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1011019774311",
+    "project_id": "cameraindex-86bbe",
+    "storage_bucket": "cameraindex-86bbe.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1011019774311:android:fc4bb1171843ea65a957c2",
+        "android_client_info": {
+          "package_name": "com.app.cameraindex"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1011019774311-9b3ofu24uinetlpr10lqtq8u6dft58lm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDAF386ewzSb-dGn_Zv3nvKW9PuJgvUJbY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1011019774311-9b3ofu24uinetlpr10lqtq8u6dft58lm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
