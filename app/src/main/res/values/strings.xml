@@ -2,6 +2,51 @@
     <string name="app_name">Camera Index</string>
     <string name="login">Login</string>
     <string name="logout">Logout</string>
+
+    <string name="gear_name_camera">Sony Alpha A6000</string>
+    <string name="gear_name_year">Launch Date: 2014</string>
+    <string name="gear_name_rating">3 Stars</string>
+
+    <string-array name="gear_name">
+        <item>Sony Alpha A6000</item>
+        <item>Sony Alpha Grip</item>
+        <item>Sony Alpha A7II</item>
+        <item>Canon 700D</item>
+        <item>Canon 70-200MM Lens</item>
+        <item>Canon D3400 Red</item>
+        <item>DJI Zenmuse Drone</item>
+        <item>Nikon D750</item>
+        <item>Yongnuo Flash</item>
+        <item>Sony Rx100</item>
+    </string-array>
+
+    <string-array name="gear_year">
+        <item>Launch Date: 2014</item>
+        <item>Launch Date: 2016</item>
+        <item>Launch Date: 2014</item>
+        <item>Launch Date: 2015</item>
+        <item>Launch Date: 2017</item>
+        <item>Launch Date: 2019</item>
+        <item>Launch Date: 2013</item>
+        <item>Launch Date: 2015</item>
+        <item>Launch Date: 2018</item>
+        <item>Launch Date: 2012</item>
+
+    </string-array>
+
+    <string-array name="gear_rating">
+        <item>5 Stars</item>
+        <item>4 Stars</item>
+        <item>3 Stars</item>
+        <item>3 Stars</item>
+        <item>4 Stars</item>
+        <item>4 Stars</item>
+        <item>5 Stars</item>
+        <item>5 Stars</item>
+        <item>5 Stars</item>
+        <item>3 Stars</item>
+    </string-array>
+
     <!-- Preference Titles -->
     <string name="messages_header">Messages</string>
     <string name="sync_header">Sync</string>

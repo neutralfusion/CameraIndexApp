@@ -18,6 +18,7 @@
             android:theme="@style/Theme.CameraIndex.NoActionBar" />
         <activity android:name=".LoginActivity" />
         <activity android:name=".RegisterActivity" />
+        <activity android:name=".SecondActivity" />
         <activity
             android:name=".MainActivity"
             android:exported="true" >
