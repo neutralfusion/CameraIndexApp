@@ -10,6 +10,7 @@ import android.widget.Toast;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.lifecycle.ViewModelProvider;
 
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
@@ -24,7 +25,8 @@ public class RegisterActivity extends AppCompatActivity {
     TextView tvLoginHere;
     Button btnRegister;
 
-    FirebaseAuth mAuth;
+    private RegisterViewModel viewModel;
+
 
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
@@ -36,7 +38,6 @@ public class RegisterActivity extends AppCompatActivity {
         tvLoginHere = findViewById(R.id.tvRegisterHere);
         btnRegister = findViewById(R.id.btnLogin);
 
-        mAuth = FirebaseAuth.getInstance();
 
         btnRegister.setOnClickListener(view -> {
             createUser();
@@ -45,30 +46,27 @@ public class RegisterActivity extends AppCompatActivity {
         tvLoginHere.setOnClickListener(view -> {
             startActivity(new Intent(RegisterActivity.this, LoginActivity.class));
         });
+
+        viewModel = new ViewModelProvider(this).get(RegisterViewModel.class);
+
+        viewModel.getAuthenticationMessage().observe(this, message ->
+        {
+            if(message != null)
+            {
+                Toast.makeText(this, message, Toast.LENGTH_SHORT).show();
+            }
+        });
+
+        viewModel.getFirebaseUser().observe(this, firebaseUser -> {
+            if (firebaseUser != null)
+                startActivity(new Intent(RegisterActivity.this, MainActivity.class));
+        });
     }
 
     private void createUser(){
         String email = etRegEmail.getText().toString();
         String password = etRegPassword.getText().toString();
 
-        if (TextUtils.isEmpty(email)){
-            etRegEmail.setError("Email cannot be empty");
-            etRegEmail.requestFocus();
-        } else if (TextUtils.isEmpty(password)){
-            etRegPassword.setError("Password cannot be empty");
-            etRegPassword.requestFocus();
-        } else {
-            mAuth.createUserWithEmailAndPassword(email, password).addOnCompleteListener(new OnCompleteListener<AuthResult>() {
-                @Override
-                public void onComplete(@NonNull Task<AuthResult> task) {
-                    if (task.isSuccessful()){
-                        Toast.makeText(RegisterActivity.this, "User registered successfully", Toast.LENGTH_SHORT).show();
-                        startActivity(new Intent(RegisterActivity.this, LoginActivity.class));
-                    } else {
-                        Toast.makeText(RegisterActivity.this, "Login Error: " + task.getException().getMessage(), Toast.LENGTH_SHORT).show();
-                    }
-                }
-            });
-        }
+        viewModel.registerUser(email,password);
     }
 }

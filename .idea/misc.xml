@@ -5,9 +5,12 @@
       <map>
         <entry key="app/src/main/res/drawable-v24/login-48px.xml" value="0.3865" />
         <entry key="app/src/main/res/drawable/ic_launcher_foreground.xml" value="0.32345678710937503" />
+        <entry key="app/src/main/res/drawable/ic_menu_camera.xml" value="0.1085" />
+        <entry key="app/src/main/res/drawable/settings.xml" value="0.1085" />
+        <entry key="app/src/main/res/drawable/side_nav_bar.xml" value="0.1085" />
         <entry key="app/src/main/res/layout/activity_login.xml" value="0.12294464111328152" />
-        <entry key="app/src/main/res/layout/activity_main.xml" value="0.2845977783203125" />
-        <entry key="app/src/main/res/layout/activity_navigation_drawer.xml" value="0.1107428584538453" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/activity_navigation_drawer.xml" value="0.1" />
         <entry key="app/src/main/res/layout/activity_sign_up.xml" value="0.1" />
         <entry key="app/src/main/res/layout/app_bar_navigation_drawer.xml" value="0.1" />
         <entry key="app/src/main/res/layout/content_navigation_drawer.xml" value="0.1" />
@@ -17,8 +20,10 @@
         <entry key="app/src/main/res/layout/nav_activity_main.xml" value="0.1950354609929078" />
         <entry key="app/src/main/res/layout/nav_header_navigation_drawer.xml" value="0.1" />
         <entry key="app/src/main/res/layout/recycler_view_row.xml" value="0.24786517641476877" />
+        <entry key="app/src/main/res/layout/settings_activity.xml" value="0.20643363728470113" />
         <entry key="app/src/main/res/menu/activity_main_drawer.xml" value="0.1" />
         <entry key="app/src/main/res/menu/navigation_drawer.xml" value="0.39487179487179486" />
+        <entry key="app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.1085" />
         <entry key="app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.1425" />
       </map>
     </option>

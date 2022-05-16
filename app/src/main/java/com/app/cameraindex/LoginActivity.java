@@ -10,6 +10,7 @@ import android.widget.Toast;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.lifecycle.ViewModelProvider;
 
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
@@ -23,6 +24,7 @@ public class LoginActivity  extends AppCompatActivity {
     TextInputEditText etLoginPassword;
     TextView tvRegisterHere;
     Button btnLogin;
+    private LoginViewModel loginViewModel;
 
     FirebaseAuth mAuth;
 
@@ -46,31 +48,26 @@ public class LoginActivity  extends AppCompatActivity {
             startActivity(new Intent(LoginActivity.this, RegisterActivity.class));
         });
 
+        loginViewModel = new ViewModelProvider(this).get(LoginViewModel.class);
+
+        loginViewModel.getAuthenticationMessage().observe(this, message ->
+        {
+            if(message != null)
+            {
+                Toast.makeText(this, message, Toast.LENGTH_SHORT).show();
+            }
+        });
+
+        loginViewModel.getFirebaseUser().observe(this, firebaseUser -> {
+            if (firebaseUser != null)
+                startActivity(new Intent(LoginActivity.this, MainActivity.class));
+        });
     }
 
     private void loginUser() {
         String email = etLoginEmail.getText().toString();
         String password = etLoginPassword.getText().toString();
-
-        if (TextUtils.isEmpty(email)) {
-            etLoginEmail.setError("Email cannot be empty");
-            etLoginEmail.requestFocus();
-        } else if (TextUtils.isEmpty(password)) {
-            etLoginPassword.setError("Password cannot be empty");
-            etLoginPassword.requestFocus();
-        }else{
-            mAuth.signInWithEmailAndPassword(email, password).addOnCompleteListener(new OnCompleteListener<AuthResult>() {
-                @Override
-                public void onComplete(@NonNull Task<AuthResult> task) {
-                  if(task.isSuccessful()){
-                      Toast.makeText(LoginActivity.this, "User logged in successfully", Toast.LENGTH_SHORT).show();
-                      startActivity(new Intent(LoginActivity.this, MainActivity.class));
-                  }else{
-
-                  }
-                }
-            });
-        }
+        loginViewModel.loginUser(email, password);
     }
 
 }
