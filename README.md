@@ -6,9 +6,14 @@
 
 
 
+
 # 📸  CameraIndexApp 
 Android application based on Java which is indexing different cameras, lenses and accesories along with 
 their specifications, guides, downloadable content, reviews, tips and tricks.
+
+### Critical:
+https://youtu.be/0FMx33LJDIM
+
 
 ## 💡  Brief description of the application and the motivation behind it:
 
