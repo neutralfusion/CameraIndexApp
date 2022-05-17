@@ -11,7 +11,7 @@
 Android application based on Java which is indexing different cameras, lenses and accesories along with 
 their specifications, guides, downloadable content, reviews, tips and tricks.
 
-### Critical:
+### Youtube Link:
 https://youtu.be/0FMx33LJDIM
 
 
