@@ -27,25 +27,25 @@ Studying the problem more, the conclusion was that a camera hardware and accesor
 ## ✅  Requirements 
 
 ### Critical:
-1. As a user, I'm willing to be able to register a new account, such that I can log in with my new account.
-2. As a user, I'm willing to be able to register a new account using Google Authentication (Firebase Integration), so I can register a new account easier.
-3. As a user, I'm willing to be able to log in on an alreadu registered account, so I can start browsing through the camera database and be able to read about it.
+1. As a user, I'm willing to be able to register a new account, such that I can log in with my new account. ✅ 
+2. As a user, I'm willing to be able to register a new account using Google Authentication (Firebase Integration), so I can register a new account easier.✅  (it was made using firebase but with email and user passowrd)
+3. As a user, I'm willing to be able to log in on an alreadu registered account, so I can start browsing through the camera database and be able to read about it. ✅ 
 
 
 ### High:
-4. As a user, I'm willing to be able to search through the database by a search bar, to find my preffered camera gear that I want to read about.
-5. As an administrator, I'm willing to be able to modify the reviews and the data into the app.
-6. As a user, I'm willing to be able to see latest post on the main page, so that I will make the right decision when buying the gear according to the latest trends.
+4. As a user, I'm willing to be able to search through the database by a search bar, to find my preffered camera gear that I want to read about. ❌
+5. As an administrator, I'm willing to be able to modify the reviews and the data into the app. ❌
+6. As a user, I'm willing to be able to see latest post on the main page, so that I will make the right decision when buying the gear according to the latest trends. ✅ 
 
 
 ### Low: 
-6. As a user, I'm willing to be able to leave a rating for the preffered camera gear.
-7. As a user, I'm willing to be able to add a camera gear to a favourite list or category.
-8. As a user, I'm willing to be able to see some places where I can find the camera gear for buying.
+6. As a user, I'm willing to be able to leave a rating for the preffered camera gear. ❌
+7. As a user, I'm willing to be able to add a camera gear to a favourite list or category. ❌
+8. As a user, I'm willing to be able to see some places where I can find the camera gear for buying. ❌
 
 ### Non-functional requirements:
- - The application can be translated in english, danish;
- - Material Design principles will be respected.
+ - The application can be translated in english, danish; ✅ 
+ - Material Design principles will be respected. ✅ 
 
 ### Languages and tools used in this project:
 <div>
